@@ -163,7 +163,7 @@ class Test extends React.Component {
           <Jumbotron className="intro">
             <h2 className="text-center">
               On your other device, visit the link below: <br /> <br />
-              Link: EyeCare/sync
+              Link: https://vision-y.herokuapp.com/sync
               <br />
               <br />
               Password: {this.state.socket.id}

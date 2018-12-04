@@ -46,13 +46,8 @@ body {
   color: red;
 }
 
-.motto {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font-weight: 900;
+.brand {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 500px) {

@@ -265,7 +265,7 @@ export default class App extends Component {
       var nav = (
         <Navbar className="nav-bar" color="light" light expand="md">
           <NavbarBrand href="/">
-            <h2>VisionYourself</h2>
+            <h2 className="brand">VisionYourself</h2>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNav} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -291,14 +291,7 @@ export default class App extends Component {
             path="/profile"
             render={props => <Profile user={this.props.user} />}
           />
-          <Route
-            path="/"
-            render={props => (
-              <div className="homepage">
-                <h3 className="motto">Online Vision Testing Service</h3>
-              </div>
-            )}
-          />
+          <Route path="/" render={props => <div className="homepage" />} />
         </Switch>
       </div>
     );
