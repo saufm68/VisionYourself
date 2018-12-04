@@ -113,6 +113,8 @@ class Isihara extends React.Component {
             <div className="digit" onClick={this.enter}>
               3
             </div>
+          </div>
+          <div className="buttonContainer">
             <div className="digit" onClick={this.enter}>
               4
             </div>
@@ -122,6 +124,8 @@ class Isihara extends React.Component {
             <div className="digit" onClick={this.enter}>
               6
             </div>
+          </div>
+          <div className="buttonContainer">
             <div className="digit" onClick={this.enter}>
               7
             </div>
@@ -131,6 +135,8 @@ class Isihara extends React.Component {
             <div className="digit" onClick={this.enter}>
               9
             </div>
+          </div>
+          <div className="buttonContainer">
             <div className="enter btn-success" onClick={this.submit}>
               Enter
             </div>
