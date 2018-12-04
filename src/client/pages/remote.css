@@ -1,0 +1,33 @@
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #333333;
+}
+
+.header {
+  background-color: #dcd6d6;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.pass-input,
+.pass-submit {
+  width: 80%;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.pass-input {
+  height: 50px;
+}
+
+.complete {
+  font-size: 2em;
+  width: 85%;
+  text-align: center;
+  margin: 40px auto;
+  color: #dcd6d6;
+}

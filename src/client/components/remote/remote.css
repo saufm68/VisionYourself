@@ -1,0 +1,185 @@
+/* Common CSS */
+.header {
+  background-color: #dcd6d6;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.instructions {
+  width: 80%;
+  color: #dcd6d6;
+  font-size: 1.5em;
+  margin: 0;
+  text-align: justify;
+  padding-left: 25px;
+}
+
+.instructions li {
+  margin-top: 0.5em;
+}
+
+.start-button {
+  background-color: #dcd6d6;
+  width: 80%;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.cooldown {
+  color: #dcd6d6;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 30%;
+}
+
+/* Isihara CSS */
+
+#answer {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.buttonContainer {
+  width: 600px;
+  height: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.digit,
+.enter,
+.delete {
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+  color: black;
+  font-weight: 800;
+  margin-top: 15px;
+  padding-top: 9%;
+}
+
+.digit {
+  background-color: gold;
+  font-size: 3.2em;
+}
+
+.enter,
+.delete {
+  font-size: 3.2em;
+}
+
+/* Astigmatism CSS */
+
+.astigmatism {
+  width: 600px;
+  height: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.question {
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  color: black;
+  font-weight: 800;
+  font-size: 4em;
+  padding-top: 11%;
+}
+
+/* Snellen CSS */
+
+.mid,
+.top,
+.bot {
+  width: 600px;
+  margin: auto;
+  display: flex;
+}
+
+.top {
+  margin-top: 55px;
+}
+
+.top,
+.bot {
+  justify-content: center;
+}
+
+.mid {
+  justify-content: space-between;
+}
+
+.snellen-button {
+  background-color: gold;
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  color: black;
+  font-weight: 800;
+  font-size: 4em;
+  padding-top: 11%;
+}
+
+@media screen and (max-width: 700px) {
+  /* Isihara CSS */
+
+  .buttonContainer {
+    margin-top: 30px;
+    width: 85vw;
+    height: 85vw;
+  }
+
+  .digit {
+    padding-top: 5%;
+    font-size: 2.5em;
+  }
+
+  .enter,
+  .delete {
+    padding-top: 8%;
+    font-size: 1.7em;
+  }
+
+  /* Astigmatism CSS */
+
+  .astigmatism {
+    margin-top: 100px;
+    width: 85vw;
+    height: 85vw;
+  }
+
+  .question {
+    font-size: 3.2em;
+    width: 40%;
+    height: 40%;
+    padding-top: 7%;
+  }
+
+  /* Snellen CSS */
+
+  .mid,
+  .top,
+  .bot {
+    width: 85vw;
+  }
+
+  .top {
+    margin-top: 60px;
+  }
+
+  .snellen-button {
+    font-size: 2em;
+    width: 110px;
+    height: 110px;
+    padding-top: 9%;
+  }
+}

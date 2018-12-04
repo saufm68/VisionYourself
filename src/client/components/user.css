@@ -1,0 +1,30 @@
+.profile-jumbo {
+  width: 70vw;
+  min-height: 406px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8f9fa !important;
+}
+
+.doctor-name {
+  border-bottom: 1px solid grey;
+}
+
+.clinic h4,
+.clinic h6,
+.contact h6 {
+  word-break: break-all;
+}
+
+.record-list {
+  background-color: #f8f9fa !important;
+}
+
+@media screen and (max-width: 500px) {
+  .profile-jumbo {
+    width: 95vw;
+  }
+}

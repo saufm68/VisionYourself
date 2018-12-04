@@ -1,8 +1,72 @@
-h1 {
-  color: green;
+body {
+  overscroll-behavior: none;
+  min-height: 100vh;
+  height: 100%;
+  min-width: 100vw;
 }
 
-body {
-  text-align: center;
-  margin: auto;
+#root,
+.overall {
+  min-height: 100vh;
+  height: 100%;
+  min-width: 100vw;
+}
+
+.homepage {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url(./pages/bg-Photo.png);
+  background-size: cover;
+}
+
+.nav-bar {
+  opacity: 0.6;
+}
+
+.logout {
+  background-color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.clicker:hover {
+  cursor: pointer;
+}
+
+.form-modal {
+  width: 80%;
+  margin: 0 auto 75px auto;
+}
+
+.invalid {
+  color: red;
+}
+
+.motto {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+}
+
+@media screen and (max-width: 500px) {
+  .homepage {
+    min-height: 91vh;
+    background-image: url(./pages/bgphoto-2.png);
+    background-position-x: 25%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .homepage {
+    background-position-x: 25%;
+    background-repeat: no-repeat;
+  }
 }
