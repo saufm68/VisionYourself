@@ -166,8 +166,7 @@ class Test extends React.Component {
               Link: EyeCare/sync
               <br />
               <br />
-              Password:
-              {this.state.socket.id}
+              Password: {this.state.socket.id}
             </h2>
           </Jumbotron>
         </div>
