@@ -54,6 +54,7 @@ app.get("*", (req, res) =>
   res.sendFile(resolve(__dirname, "..", "..", "public", "index.html"))
 );
 
+//PORT
 const PORT = process.env.PORT || 8080;
 const server = http.listen(PORT, () => console.log("Listening on port 8080!"));
 //Run clean up actions when server shuts down
