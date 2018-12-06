@@ -65,13 +65,19 @@ git push heroku
 
 Doctor
 <br />
+<br />
 ![homepage view](./readMeMedia/homepage.png)
 
 Patient
 <br />
+<br />
 -Screen
 <br />
+<br />
 ![patient screen view](./readMeMedia/screen.png)
+<br />
+<br />
 -Remote
+<br />
 <br />
 ![patient screen view](./readMeMedia/test.png)
