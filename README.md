@@ -63,10 +63,12 @@ git push heroku
 
 ## Preview
 
-####Doctor
+Doctor
+<br />
 ![homepage view](./readMeMedia/homepage.png)
 
-####Patient
+Patient
+<br />
 -Screen
 <br />
 ![patient screen view](./readMeMedia/screen.png)
